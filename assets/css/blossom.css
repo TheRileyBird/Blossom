@@ -1,0 +1,64 @@
+/* Colors */
+/* https://colorpalette.org/plant-greenhouse-herb-color-palette/ */
+
+/* Structure */
+.fluid {
+  max-width: 100%!important;
+  padding: 0;
+}
+main {
+  margin: 3rem;
+  /* text-align: center; */
+}
+.left-nav {
+  background-color: #668527;
+  height: 100vh;
+  position: fixed;
+  /* background-image: url(/assets/img/side-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.right-main {
+  background-color: #efefee;
+  height: 100vh;
+}
+
+/* Elements */
+.logo {
+  margin-top: 1rem;
+}
+.site-title {
+  text-align: center;
+}
+.button {
+  background-color: #4e3f22;
+  margin-bottom: 0;
+}
+.button:hover, .button:focus {
+  background-color: #948e7d;
+}
+
+/* Navigation */
+.side-nav li a:not(.button) {
+  color: black;
+  text-transform: uppercase;
+}
+.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+    background: rgba(0,0,0,0.025);
+    color: #efefee;
+}
+
+/* Tables */
+table {
+  margin: 0 auto 1rem;
+  width: 100%
+}
+table thead td {
+  text-align: left;
+  font-weight: 600;
+}
+.id,
+.edit,
+.delete {
+  width: 5%;
+}
